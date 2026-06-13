@@ -63,7 +63,7 @@ class TextClassificationDataset(Dataset):
         label = self.labels[idx]
 
         # Tokenization avec padding et troncature
-        encoding = self.tokenizer.encode_plus(
+        encoding = self.tokenizer(
             text,
             add_special_tokens=True,   # ajoute [CLS] et [SEP]
             max_length=self.max_length,
@@ -88,6 +88,7 @@ class TextClassificationDataset(Dataset):
 # ---------------------------------------------------------------------------
 
 def load_bbc_dataset(csv_path: str) -> tuple[list[str], list[int], list[str]]:
+
     """
     Charge le dataset BBC News depuis un fichier CSV (séparateur tabulation).
 
