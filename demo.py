@@ -83,7 +83,7 @@ def predict(
         return {label: 0.0 for label in label_names}
 
     # Tokenization du texte
-    encoding = tokenizer.encode_plus(
+    encoding = tokenizer(
         text,
         add_special_tokens=True,
         max_length=max_length,
