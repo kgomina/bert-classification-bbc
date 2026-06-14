@@ -11,7 +11,7 @@
 | Membre               | GitHub           |
 | -------------------- | ---------------- |
 | Kéléfing GOMINA      | @kgomina         |
-| Samba Abaladema WELA | @Picatou01072017 |
+| Samba Abaladema WELLA | @Picatou01072017 |
 
 ---
 
@@ -261,7 +261,7 @@ python demo.py --model_path checkpoints/best_model.pt
 | Tâche                                          | Membre   |
 | ---------------------------------------------- | -------- |
 | `dataset.py` + analyse exploratoire du dataset | GOMINA   |
-| `model.py` + `utils.py`                        | WELA     |
+| `model.py` + `utils.py`                        | WELLA     |
 | `train.py` (boucle d'entraînement PyTorch)     | GOMINA   |
-| `demo.py` (interface Gradio)                   | WELA     |
+| `demo.py` (interface Gradio)                   | WELLA     |
 | Tests, débogage, README                        | Les deux |
