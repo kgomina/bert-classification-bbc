@@ -10,8 +10,8 @@
 
 | Membre | GitHub |
 |--------|--------|
-| Prénom Nom 1 | @github1 |
-| Prénom Nom 2 | @github2 |
+| Kéléfing GOMINA | @kgomina |
+| Samba Abaladema WELA | @github2 |
 
 ---
 
@@ -115,7 +115,7 @@ bert-classification-bbc/
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/<votre-repo>/bert-classification-bbc.git
+git clone git clone https://github.com/kgomina/bert-classification-bbc.git
 cd bert-classification-bbc
 ```
 
@@ -165,26 +165,25 @@ python demo.py --share
 
 ## 📊 Résultats
 
-> *(À remplir après l'entraînement — ajouter captures d'écran)*
 
 ### Métriques finales
 
 | Métrique | Valeur |
 |----------|--------|
-| Val Accuracy | ~0.97+ attendu |
-| Val F1 macro | ~0.97+ attendu |
+| Val Accuracy | 98.2%|
+| Val F1 macro | 98.2% |
 
 ### Courbes d'apprentissage
 
-![Learning Curves](checkpoints/learning_curves.png)
+![Learning Curves](learning_curves.png)
 
 ### Matrice de confusion
 
-![Confusion Matrix](checkpoints/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 ### Interface Gradio
 
-> *(Capture d'écran à ajouter)*
+![alt text](<Capture d'écran 2026-06-14 012817.png>)
 
 ---
 
