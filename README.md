@@ -136,6 +136,11 @@ bert-classification-bbc/
 ### Option A — Google Colab (recommandé, GPU gratuit)
 
 ```python
+# Cellule 0: Avant toute chose, activer le GPU
+import torch
+print(torch.cuda.is_available())       # doit afficher True
+print(torch.cuda.get_device_name(0))   # doit afficher Tesla T4
+
 # Cellule 1 — Cloner le repo
 !git clone https://github.com/kgomina/bert-classification-bbc.git
 %cd bert-classification-bbc
